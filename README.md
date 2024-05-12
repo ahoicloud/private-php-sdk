@@ -1,7 +1,7 @@
 # Enable private PHP SDK
 ## Add AHOI Repository
-To enable private PHP SDK please add our private composer service
-```
+To enable private PHP SDK please add our private composer service to your `composer.json`
+```php
 "repositories": [
     {
         "type": "composer",
@@ -12,7 +12,7 @@ To enable private PHP SDK please add our private composer service
 
 ## Add the package 
 
-```
+```bash
 composer require ahoicloud/packagename
 ```
 ## Add the license key
